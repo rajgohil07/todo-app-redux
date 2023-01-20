@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/todo-app-redux/static/css/main.d8676917.css",
-    "main.js": "/todo-app-redux/static/js/main.1d7eac7b.js",
+    "main.js": "/todo-app-redux/static/js/main.b2bbe151.js",
     "index.html": "/todo-app-redux/index.html",
     "main.d8676917.css.map": "/todo-app-redux/static/css/main.d8676917.css.map",
-    "main.1d7eac7b.js.map": "/todo-app-redux/static/js/main.1d7eac7b.js.map"
+    "main.b2bbe151.js.map": "/todo-app-redux/static/js/main.b2bbe151.js.map"
   },
   "entrypoints": [
     "static/css/main.d8676917.css",
-    "static/js/main.1d7eac7b.js"
+    "static/js/main.b2bbe151.js"
   ]
 }
