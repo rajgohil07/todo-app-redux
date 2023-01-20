@@ -35,7 +35,7 @@ export const Navbar = () => {
             <NavLink to={`${baseURL}`}>Home</NavLink>
           </li>
           <li className="floatChanger">
-            <NavLink to={`${baseURL}analytics`}>Analytics</NavLink>
+            <NavLink to={"analytics"}>Analytics</NavLink>
           </li>
         </ul>
       </div>

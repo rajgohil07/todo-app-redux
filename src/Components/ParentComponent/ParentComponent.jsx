@@ -16,7 +16,7 @@ export const ParentComponent = () => {
       <Routes>
         <Route path={`${baseURL}/`} element={<Navbar />}>
           <Route index element={<Home />} />
-          <Route path={`${baseURL}analytics`} element={<Analytics />} />
+          <Route path="analytics" element={<Analytics />} />
         </Route>
         <Route path={`*`} element={<PageNotFound />} />
       </Routes>
