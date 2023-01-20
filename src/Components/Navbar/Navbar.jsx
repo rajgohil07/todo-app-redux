@@ -32,10 +32,10 @@ export const Navbar = () => {
             </Link>
           </li>
           <li className="floatChanger">
-            <NavLink to={`${baseURL}`}>Home</NavLink>
+            <NavLink to={`${baseURL}/`}>Home</NavLink>
           </li>
           <li className="floatChanger">
-            <NavLink to={"analytics"}>Analytics</NavLink>
+            <NavLink to={`${baseURL}/analytics`}>Analytics</NavLink>
           </li>
         </ul>
       </div>
