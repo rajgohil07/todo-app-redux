@@ -1,0 +1,44 @@
+.home {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 2rem 3rem;
+    width: 40%;
+}
+
+.home>.appName {
+    border: 1px solid black;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    background-color: rgb(10, 222, 201);
+}
+
+.home>.appName h1 {
+    text-align: center;
+}
+
+.home ol {
+    padding: 0rem 1.5rem 0rem 3rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+
+.home>.taskListing {
+    border: 1px solid black;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    background-color: lightgrey;
+}
+
+.home>.taskListing li {
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.spanStrikeThrough {
+    text-decoration: line-through;
+}
+
+.todoFlex {
+    display: flex;
+}

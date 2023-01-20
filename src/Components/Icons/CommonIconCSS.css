@@ -1,0 +1,29 @@
+.rightIcon {
+    position: absolute;
+    transition: all 300ms linear;
+    font-size: 1.3rem;
+    margin-left: 0.3rem;
+}
+
+.rightIcon:hover {
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    color: green;
+    transform: translateY(-0.2rem);
+}
+
+.crossIcon {
+    position: absolute;
+    transition: all 300ms linear;
+    font-size: 1.3rem;
+    margin-left: 0.3rem;
+}
+
+.crossIcon:hover {
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    color: orangered;
+    transform: translateY(-0.2rem);
+}

@@ -1,0 +1,43 @@
+.NavbarWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.floatChanger {
+  float: left;
+}
+
+.floatChanger a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem 1.4rem;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+/* Change the link color to #111 (black) on hover */
+.floatChanger a:hover {
+  background-color: #111;
+  transition: all 300ms ease-in-out;
+}
+
+/* Style for active tab using the react-router-dom NavLink component */
+.NavbarWrapper .active {
+  background-color: rgb(10, 222, 201);
+  color: black;
+  ;
+}
+
+.NavbarWrapper .active:hover {
+  background-color: lightgrey
+}

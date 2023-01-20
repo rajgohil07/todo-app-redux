@@ -1,0 +1,21 @@
+.analysisWrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.divider {
+    display: block;
+    height: 0.1rem;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.tableText {
+    margin: 0;
+}
+
+.todoValues {
+    margin-left: 1rem;
+}
