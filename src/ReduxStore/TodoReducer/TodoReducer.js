@@ -1,7 +1,7 @@
 import { TodoActionType } from "./TodoActionTypes";
 
 const initialState = {
-  isLoading: false,
+  isLoading: true,
   todoData: [],
   isDeleteActionActive: false,
   selectedTodoIdList: [],

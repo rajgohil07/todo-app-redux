@@ -1,8 +1,17 @@
 import { useNavigate } from "react-router-dom";
 import "./PageNotFound.css";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { TodoActionType } from "../../ReduxStore/TodoReducer/TodoActionTypes";
 
 export const PageNotFound = () => {
   const navigation = useNavigate();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch({ type: TodoActionType.SET_LOADING_FALSE });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="body">
