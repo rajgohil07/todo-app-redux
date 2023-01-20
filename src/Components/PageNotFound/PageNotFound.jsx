@@ -214,7 +214,7 @@ export const PageNotFound = () => {
                   d="M578.51 96.4834L578.52 96.4957L578.531 96.5076C583.685 102.221 590.434 111.588 597.797 126.726L597.798 126.73C613.465 158.638 621.544 194.732 621.655 231.32L622.93 650.608L517.93 650.927L516.661 233.319C516.547 195.664 524.762 158.515 541.048 125.774C546.594 114.716 552.917 104.371 559.813 96.561L559.822 96.5507L559.831 96.5402C560.972 95.1742 562.398 94.0744 564.009 93.3179C565.62 92.5615 567.377 92.1667 569.157 92.1613C570.937 92.1559 572.697 92.54 574.312 93.2866C575.928 94.0333 577.361 95.1244 578.51 96.4834Z"
                   fill="#EEEEEE"
                   stroke="black"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
                 <path
                   id="Vector_35"
@@ -242,9 +242,9 @@ export const PageNotFound = () => {
               width="1123"
               height="837"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -276,9 +276,9 @@ export const PageNotFound = () => {
               y2="738.768"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#E0E0E0" />
-              <stop offset="0.31" stop-color="#FCCC63" />
-              <stop offset="0.77" stop-color="#F55F44" />
+              <stop stopColor="#E0E0E0" />
+              <stop offset="0.31" stopColor="#FCCC63" />
+              <stop offset="0.77" stopColor="#F55F44" />
             </linearGradient>
             <linearGradient
               id="paint1_linear"
@@ -288,9 +288,9 @@ export const PageNotFound = () => {
               y2="738.518"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#E0E0E0" />
-              <stop offset="0.31" stop-color="#FCCC63" />
-              <stop offset="0.77" stop-color="#F55F44" />
+              <stop stopColor="#E0E0E0" />
+              <stop offset="0.31" stopColor="#FCCC63" />
+              <stop offset="0.77" stopColor="#F55F44" />
             </linearGradient>
             <linearGradient
               id="paint2_linear"
@@ -300,9 +300,9 @@ export const PageNotFound = () => {
               y2="738.518"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#E0E0E0" />
-              <stop offset="0.31" stop-color="#FCCC63" />
-              <stop offset="0.77" stop-color="#F55F44" />
+              <stop stopColor="#E0E0E0" />
+              <stop offset="0.31" stopColor="#FCCC63" />
+              <stop offset="0.77" stopColor="#F55F44" />
             </linearGradient>
             <linearGradient
               id="paint3_linear"
@@ -312,9 +312,9 @@ export const PageNotFound = () => {
               y2="738.518"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#E0E0E0" />
-              <stop offset="0.31" stop-color="#FCCC63" />
-              <stop offset="0.77" stop-color="#F55F44" />
+              <stop stopColor="#E0E0E0" />
+              <stop offset="0.31" stopColor="#FCCC63" />
+              <stop offset="0.77" stopColor="#F55F44" />
             </linearGradient>
           </defs>
         </svg>
