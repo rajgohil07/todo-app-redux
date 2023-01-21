@@ -7,7 +7,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { TodoActionType } from "../../ReduxStore/TodoReducer/TodoActionTypes";
 
 export const AddTodo = () => {
-  const { isDeleteActionActive } = useSelector((state) => state.todo);
+  const { isDeleteActionActive, selectedTodoIdList } = useSelector(
+    (state) => state.todo
+  );
 
   const dispatch = useDispatch();
   const [isAddMode, setEditMode] = useState(false);
@@ -34,8 +36,8 @@ export const AddTodo = () => {
   return (
     <div className="addDeleteTodo">
       {isAddMode ? (
-        <div className="ParentAddSection">
-          <div className="addTask ParentAddSection">
+        <div className="parentAddSection">
+          <div className="addTask">
             <input
               ref={addTodoRef}
               type="text"
@@ -61,9 +63,11 @@ export const AddTodo = () => {
               className="cancelIcon"
             />
           </div>
-          <span className="errorMessage">
-            {displayError && "Please enter todo before proceed"}
-          </span>
+          {displayError && (
+            <span className="errorMessage">
+              Please enter todo before proceed
+            </span>
+          )}
         </div>
       ) : (
         <Button
@@ -74,12 +78,13 @@ export const AddTodo = () => {
               data: false,
             });
           }}
-          additionalClassName="ParentAddSection"
+          additionalClassName="newTaskButton"
           buttonName="Add todo"
         />
       )}
       <div className="deleteTodo">
         <Button
+          disabled={selectedTodoIdList.length === 0 && isDeleteActionActive}
           onClick={() => {
             if (!isDeleteActionActive) {
               dispatch({
@@ -94,7 +99,7 @@ export const AddTodo = () => {
               setEditMode(false);
             }
           }}
-          additionalClassName="ParentAddSection"
+          additionalClassName="deleteButton"
           buttonName={isDeleteActionActive ? "Confirm delete" : "Delete todo"}
         />
         {isDeleteActionActive && (

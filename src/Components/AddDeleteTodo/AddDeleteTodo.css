@@ -3,7 +3,15 @@
     justify-content: space-between;
 }
 
-.ParentAddSection {
+.parentAddSection {
+    margin: 1.5rem 2rem;
+}
+
+.newTaskButton {
+    margin: 1.5rem 2rem;
+}
+
+.deleteButton {
     margin: 1.5rem 2rem;
 }
 
@@ -42,7 +50,7 @@
 .addTask {
     display: flex;
     padding: 0;
-    margin: 0;
+    margin: 0.5rem 0 0 0;
 }
 
 .errorMessage {
@@ -62,22 +70,73 @@
 }
 
 /* Small mobile screen i.e. samsung galaxy S20 ultra */
-@media only screen and (max-width: 412px) and (min-width: 0px) {
-    .ParentAddSection {
-        margin: 0.9rem 1.3rem;
+@media only screen and (max-width: 412px) {
+    .parentAddSection {
+        margin: 0.5rem 0.8rem;
+    }
+
+    .addTask {
+        margin: 0;
+    }
+
+    .deleteButton {
+        margin: 0.7rem 0;
+    }
+
+    .newTaskButton {
+        margin: 0.7rem 0 0 -0.7rem;
+    }
+
+    .buttonMarginRemover {
+        margin: 0 0 0 0.7rem;
+    }
+
+    .addDeleteTodo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 /* For mobile screen i.e. samsung A51 */
 @media only screen and (max-width: 501px) and (min-width: 413px) {
-    .ParentAddSection {
-        margin: 1.3rem 2rem;
+    .parentAddSection {
+        margin: 0.0rem 0.8rem;
+    }
+
+    .deleteButton {
+        margin: 0.7rem 0;
+    }
+
+    .newTaskButton {
+        margin: 0.7rem 0 0 -0.7rem;
+    }
+
+    .buttonMarginRemover {
+        margin: 0 0 0 0.7rem;
+    }
+
+    .addDeleteTodo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 643px) and (min-width: 501px) {
+    .parentAddSection {
+        margin: 0.0rem 0.8rem;
+    }
+
+    .deleteButton {
+        margin: 0.9rem 0.7rem 0.9rem 0rem;
+    }
+
+    .newTaskButton {
+        margin: 1.5rem 0.7rem;
     }
 }
 
 /* Mini-laptop screen i.e. Surface pro 7*/
-@media only screen and (max-width: 912px) and (min-width: 501px) {
-    .ParentAddSection {
-        margin: 1.5rem 2.5rem;
-    }
-}
+/* @media only screen and (max-width: 1148px) and (min-width: 501px) {} */
