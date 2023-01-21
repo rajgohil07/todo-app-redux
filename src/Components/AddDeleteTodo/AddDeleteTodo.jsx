@@ -92,6 +92,7 @@ export const AddTodo = () => {
                 data: !isDeleteActionActive,
               });
               setEditMode(false);
+              setDisplayError(false);
             } else {
               dispatch({
                 type: TodoActionType.DELETE_SELECTED_TODO,
