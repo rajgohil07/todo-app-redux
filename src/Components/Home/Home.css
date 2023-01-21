@@ -42,3 +42,54 @@
 .todoFlex {
     display: flex;
 }
+
+/* Small mobile screen i.e. samsung galaxy S20 ultra */
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+    .home {
+        padding: 0.8rem 1.3rem;
+        width: 90%;
+    }
+
+    .home>.appName h1 {
+        font-size: 22px;
+    }
+
+    .home ol {
+        padding: 0rem 0.8rem 0rem 2rem;
+        margin-right: 0.6rem;
+    }
+}
+
+/* For mobile screen i.e. samsung A51 */
+@media only screen and (max-width: 501px) and (min-width: 413px) {
+    .home {
+        padding: 1rem 1.5rem;
+        width: 80%;
+    }
+
+    .home>.appName h1 {
+        font-size: 22px;
+    }
+
+    .home ol {
+        padding: 0rem 0.9rem 0rem 2.2rem;
+        margin-right: 0.6rem;
+    }
+}
+
+/* Mini-laptop screen i.e. Surface pro 7*/
+@media only screen and (max-width: 912px) and (min-width: 501px) {
+    .home {
+        padding: 1rem 1.5rem;
+        width: 70%;
+    }
+
+    .home>.appName h1 {
+        font-size: 22px;
+    }
+
+    .home ol {
+        padding: 0rem 1rem 0rem 2.5rem;
+        margin-right: 0.3rem;
+    }
+}

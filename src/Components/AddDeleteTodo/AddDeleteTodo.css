@@ -4,7 +4,7 @@
 }
 
 .ParentAddSection {
-    margin: 1rem 2rem;
+    margin: 1.5rem 2rem;
 }
 
 .correctIcon {
@@ -59,4 +59,25 @@
 
 .buttonMarginRemover {
     margin: 0 2rem 0 0;
+}
+
+/* Small mobile screen i.e. samsung galaxy S20 ultra */
+@media only screen and (max-width: 412px) and (min-width: 0px) {
+    .ParentAddSection {
+        margin: 0.9rem 1.3rem;
+    }
+}
+
+/* For mobile screen i.e. samsung A51 */
+@media only screen and (max-width: 501px) and (min-width: 413px) {
+    .ParentAddSection {
+        margin: 1.3rem 2rem;
+    }
+}
+
+/* Mini-laptop screen i.e. Surface pro 7*/
+@media only screen and (max-width: 912px) and (min-width: 501px) {
+    .ParentAddSection {
+        margin: 1.5rem 2.5rem;
+    }
 }
